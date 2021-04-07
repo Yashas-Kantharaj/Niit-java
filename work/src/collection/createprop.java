@@ -1,4 +1,4 @@
-package collections;
+package collection;
 
 import java.io.FileWriter;
 import java.util.Properties;

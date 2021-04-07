@@ -1,4 +1,4 @@
-package collections;
+package collection;
 
 import java.io.FileReader;
 import java.util.Properties;
