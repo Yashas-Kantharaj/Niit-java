@@ -1,5 +1,5 @@
   
-package serialization;
+package Serialization;
 
 public class Animal {
 	int i = 10;
