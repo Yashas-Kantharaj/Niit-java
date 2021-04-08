@@ -18,6 +18,7 @@ public static void main(String[] args) {
 	
 	interface1.m1();
 	interface1.m2();
+	interface1.m3();
 	}
 }
 
