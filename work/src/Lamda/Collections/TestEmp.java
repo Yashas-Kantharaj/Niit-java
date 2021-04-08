@@ -14,7 +14,7 @@ public class TestEmp {
 		employees.add(new Employee("pooja",211));
 		
 		System.out.println(employees);
-		Comparator<Employee> a = (e1,e2)->(e1.eid < e2.eid)? -1 : (e1.eid > e2.eid)? 1 : 0;
+		Comparator<Employee> a = (e1,e2)->e1.name.compareTo(e2.name);
 		Collections.sort(employees,a);
 		System.out.println(employees);
 		
