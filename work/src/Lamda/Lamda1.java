@@ -1,4 +1,4 @@
-package Lamba;
+package Lamda;
 import java.util.*;
 import java.util.function.Function;
 public class Lamda1 {

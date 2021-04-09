@@ -1,4 +1,4 @@
-package Lamba;
+package Lamda;
 
 import java.util.Iterator;
 

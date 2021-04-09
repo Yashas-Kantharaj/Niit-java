@@ -1,4 +1,4 @@
-package Lamba.Anonymous;
+package Lamda.Anonymous;
 
 public interface Interface1 {
 	void m1();

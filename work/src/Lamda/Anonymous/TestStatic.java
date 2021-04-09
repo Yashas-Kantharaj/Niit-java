@@ -1,4 +1,4 @@
-package Lamba.Anonymous;
+package Lamda.Anonymous;
 
 public class TestStatic implements Interface1 {
 	public static void main(String[] args) {

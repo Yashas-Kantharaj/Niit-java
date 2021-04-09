@@ -1,4 +1,4 @@
-package Lamba;
+package Lamda;
 
 public class Implsum implements FunctionalInterface{
 	@Override

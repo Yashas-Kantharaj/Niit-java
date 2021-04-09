@@ -1,4 +1,4 @@
-package Lamba;
+package Lamda;
 
 public class LB4FuncInterface {
 	public static void main(String[] args) {
