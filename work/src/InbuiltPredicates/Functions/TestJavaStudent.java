@@ -21,12 +21,13 @@ public class TestJavaStudent {
 		}
 	}
 	
-	private static void popstudents() {
+	public static ArrayList<JavaStudent> popstudents() {
 		js = new ArrayList<JavaStudent>();
 		js.add(new JavaStudent("yashas",70));
 		js.add(new JavaStudent("ram",60));
 		js.add(new JavaStudent("pooja",75));
 		js.add(new JavaStudent("salman",90));
+		return js;
 	
 	}
 }
