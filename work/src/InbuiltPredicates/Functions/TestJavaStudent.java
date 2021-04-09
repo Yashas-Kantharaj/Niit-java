@@ -23,10 +23,10 @@ public class TestJavaStudent {
 	
 	public static ArrayList<JavaStudent> popstudents() {
 		js = new ArrayList<JavaStudent>();
-		js.add(new JavaStudent("yashas",70));
-		js.add(new JavaStudent("ram",60));
-		js.add(new JavaStudent("pooja",75));
-		js.add(new JavaStudent("salman",90));
+		js.add(new JavaStudent("yashas",70,22));
+		js.add(new JavaStudent("ram",60,18));
+		js.add(new JavaStudent("pooja",75,22));
+		js.add(new JavaStudent("salman",90,18));
 		return js;
 	
 	}
