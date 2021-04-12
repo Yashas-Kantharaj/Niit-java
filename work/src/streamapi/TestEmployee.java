@@ -16,7 +16,7 @@ public class TestEmployee {
 		elist.add(new Employee("pooja", 7000));
 		System.out.println(elist);
 		List<Employee> sortedlist= elist.stream().sorted().collect(Collectors.toList());
-		  System.out.println(sortedlist);
+		  System.out.println("sorted using name: "+sortedlist);
 		
 		Comparator<Employee> c = (e1,e2) -> {
 			return(e1.salary<e2.salary)? -1
@@ -24,8 +24,8 @@ public class TestEmployee {
 							:0;
 					
 		};
-//		List<Employee> sortedlist= elist.stream().sorted(c).collect(Collectors.toList());
-//		System.out.println(sortedlist);
+		List<Employee> sortedlist1= elist.stream().sorted(c).collect(Collectors.toList());
+		System.out.println("sorted using salary: "+sortedlist1);
 		
 		
 		
