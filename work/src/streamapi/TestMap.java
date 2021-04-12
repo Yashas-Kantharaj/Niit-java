@@ -21,5 +21,7 @@ public class TestMap {
 		System.out.println("Even numbers="+ evenno);
 		long count= marks.stream().filter(i->i<25).count();
 		System.out.println("student less then 25: "+count);
+		
+		
 	}
 }
