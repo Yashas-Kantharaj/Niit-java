@@ -1,3 +1,5 @@
+//To check if strings are anagrams
+
 package assignments;
 
 import java.util.Arrays;
@@ -12,8 +14,6 @@ public class AnagramCheck {
 			
 			Arrays.sort(charArray1);
 			Arrays.sort(charArray2);
-			System.out.println(charArray1);
-			System.out.println(charArray2);
 			String res = Arrays.equals(charArray1,charArray2)? "is a anagram" : "is not a anagram";
 			System.out.println(res);
 		}
